@@ -40,7 +40,6 @@ class testMockDomain(unittest.TestCase):
     @patch('domainInsercion.insertarDatos.get_entrenador_data',return_value=1)
     def test_get_data_entrenador(self,mock_get):
      llamar=insertarDatos()
-    
      resultado_esperado=1
      resultado_actual=llamar.get_entrenador_data("mock")
      

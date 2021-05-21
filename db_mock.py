@@ -29,7 +29,7 @@ class TestOperaciones(unittest.TestCase):
         esperado="Se borraron los pokemon correctamente"
         resultado_actual=llamar.delete_poke("mock")
         assert esperado==resultado_actual
-        
-    
+
+
 if __name__ == "__main__":
     unittest.main()
