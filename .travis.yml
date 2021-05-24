@@ -12,5 +12,4 @@ install:
   - pip install pyodbc
   - pip install requests
 script: 
-  - python3 domainMock.py
-  - python3 api_mock.py
+  - python3 test.py
